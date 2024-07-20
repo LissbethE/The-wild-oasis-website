@@ -2,10 +2,10 @@
 
 <br/>
 
-<div  style="display: flex; align-items: center; justify-content:center; gap:10px;">
-    <img src="./public/logo.png" width="50" height="50"/>
-    <h1>The Wild Oasis Website</h1>
-</div>
+<h1 align="center">
+    <img src="./public/logo.png" width="45" height="45"/>
+    <span>The Wild Oasis Website</span> 
+</h1>
 
 <h3 align="center">
     Technologies: Tailwind CSS, Next.js, Supabase. Authenticate with NextAuth.
