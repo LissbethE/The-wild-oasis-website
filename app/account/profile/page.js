@@ -3,13 +3,20 @@
 import SelectCountry from "@/components/account/SelectCountry";
 import UpdateProfileForm from "@/components/account/UpdateProfileForm";
 
+import { auth } from "@/lib/auth";
+import { getGuest } from "@/lib/data-service";
+
 export const metadata = {
   title: "Update profile",
 };
 
-export default function Page() {
-  // CHANGE
-  const nationality = "portugal";
+export default async function Page() {
+  const session = await auth();
+  const guest = await getGuest(session.user.email);
+
+  // console.log(session, guest);
+
+  const nationality = guest.nationality;
 
   return (
     <div>
@@ -22,7 +29,7 @@ export default function Page() {
         faster and smoother. See you soon!
       </p>
 
-      <UpdateProfileForm>
+      <UpdateProfileForm guest={guest}>
         <SelectCountry
           name="nationality"
           id="nationality"

@@ -1,3 +1,38 @@
+## ✨Project Preview
+
+<br/>
+
+<div  style="display: flex; align-items: center; justify-content:center; gap:10px;">
+    <img src="./public/logo.png" width="50" height="50"/>
+    <h1>The Wild Oasis Website</h1>
+</div>
+
+<h3 align="center">
+    Technologies: Tailwind CSS, Next.js, Supabase. Authenticate with NextAuth.
+</h3>
+
+<br/>
+
+<div align="center">
+<img src="./public/home.jpg"  width="90%"/>
+<br/>
+<img src="./public/Cabins-The-Wild-Oasis.png"  width="90%"/>
+</div>
+
+<br/>
+
+#### 📚 Course project
+
+- The Ultimate React Course: React, Next.js, Redux, and More by Jonas Schmedtmann.
+
+</br>
+
+<p align=center>🌐The online site: <a href="" target="_blank">The Wild Oasis Website.</a></p>
+
+##
+
+</br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
